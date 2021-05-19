@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+/*HEADER*/
+
+  /*NAV BAR*/
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+
+  /*SEARCH BAR*/ 
+ 
+  .npm-logo {
+    width: 60px;
+    margin-right: 0rem;
+}  
+    .magnifying-glass {
+    width: 25px;
+    margin-right: 1rem;
+}
+
+/* QUEDA PENDIENTE ACABAR ESTA SEARCH BAR*/
+  .search-bar {
+    background-color: rgba(0,0,0,.05)
+
+  }
+
+  .search-bar input {
+    background-color: rgba(0,0,0,.05)
+
+  }
+
+  .search-bar button {
+    background-color: #fb3e44;
+    color: white;
+    border: none;
+
+  }
+
+  .search-area {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0px solid lightgray;
+
+  }
+  .link-btn{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 0px solid lightgray;
+  }
+
