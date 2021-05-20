@@ -41,44 +41,67 @@ header > div {
  
   .npm-logo {
     width: 60px;
-    margin-right: 0rem;
-}  
-    .magnifying-glass {
-    width: 25px;
     margin-right: 1rem;
+  }  
+
+
+/* QUEDA PENDIENTE AJUSTAR ESTA SEARCH BAR*/
+.search-area {
+  padding: 10px 0px 10px 30px;    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0px solid lightgray;
 }
 
-/* QUEDA PENDIENTE ACABAR ESTA SEARCH BAR*/
   .search-bar {
-    background-color: rgba(0,0,0,.05)
+    width: auto;
+    background-color: rgba(0,0,0,.05);
+    display: flex;
+    justify-content: space-around;
+    
+   }
 
+   .magnifying-glass {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+    align-self: center ;
   }
 
-  .search-bar input {
-    background-color: rgba(0,0,0,.05)
+.search-area-links {
+  width: 400px;
+  
+}
 
+  .search-bar input {
+    width: 500px;
+    background-color: rgba(0,0,0,.05);
+    font-family: 'Poppins';
+  }
+
+  #search-packages{
+   
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid black
+ 
   }
 
   .search-bar button {
     background-color: #fb3e44;
     color: white;
     border: none;
+    width: 60px;
+    height: 30px;
 
   }
 
-  .search-area {
-    padding: 0 25px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 0px solid lightgray;
-
-  }
   .link-btn{
     color: black;
     text-align: center;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 0 25px;
     border: 0px solid lightgray;
   }
 
