@@ -4,6 +4,7 @@ body {
   font-family: 'Poppins';
 }
 
+
 /*HEADER*/
 
   /*NAV BAR*/
@@ -56,7 +57,7 @@ header > div {
 
   .search-bar {
     width: auto;
-    background-color: rgba(0,0,0,.05);
+    background-color: rgba(0,0,0,0.05);
     display: flex;
     justify-content: space-around;
     
@@ -76,7 +77,7 @@ header > div {
 
   .search-bar input {
     width: 500px;
-    background-color: rgba(0,0,0,.05);
+    background-color: rgba(0,0,0,0);
     font-family: 'Poppins';
   }
 
@@ -92,16 +93,121 @@ header > div {
     background-color: #fb3e44;
     color: white;
     border: none;
-    width: 60px;
-    height: 30px;
+    padding: 10px 20px;
+    font-family: 'Poppins'
 
   }
 
   .link-btn{
     color: black;
+    background-color: white;
     text-align: center;
     text-decoration: none;
-    padding: 0 25px;
+    padding: 10px 25px;
     border: 0px solid lightgray;
   }
 
+/*SECTION 1*/
+
+#section-1 {
+  height: 500px;
+  background-color: rgba(232,217,217,.3);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section-1 h1 {
+  font-size: 5em;
+}
+
+#section-1 article{
+  width: 500px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.see-plans-link {
+  background-color: #FB3B49;
+  text-decoration:none;
+  color: white;
+  padding: 10px 25px;
+  box-shadow: 4px 4px 0 rgba(251,59,73,.2) ;
+  margin-right: 3em;
+}
+
+/*SECTION 2*/
+#section-2 {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+#section-2 img {
+width: 200px;
+padding: 20px;
+}
+
+#section-2 h2 {
+ background-color: rgba(255,204,53,.4);
+ font-size: 2em;
+ transform: skew(9deg,0deg);
+ font-style: italic;
+ padding: 0px 10px;
+  }
+
+#section-2-description {
+  width: 650px;
+  text-align: center;
+}
+
+/*SECTION 3*/
+
+#section-3 {
+  height: auto;
+  padding: 40px
+
+}
+
+#section-3-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: baseline ;
+  }
+
+#section-3-text h3 {
+color: #ED1C24;
+font-size: 0.9em;
+padding-top: 20px;
+  }
+
+#section-3-text img{
+width: 50px;
+}
+
+#section-3-text div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 370px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#create-org {
+  margin: auto;
+  text-align: center;
+}
+
+.create-org-button {
+  background-color: black;
+  text-decoration:none;
+  color: white;
+  padding: 10px 75px;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+}
